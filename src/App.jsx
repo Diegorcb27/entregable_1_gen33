@@ -26,7 +26,7 @@ const objStyle={
 
   return (
    <div className="app" style={objStyle}>
-    <h1 className='app__title'>Versiculos Bíblicos</h1>
+    <h1 className='app__title'>Versículos Bíblicos</h1>
       <div className='app__card'>
         <Phrase quoteRandom={quoteRandom}/>
         <Button setQuoteRandom={setQuoteRandom} 
